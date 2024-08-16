@@ -1,0 +1,220 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.big-cont {
+    margin-left: -110px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.small-container {
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.image-styl {
+    margin-left: 20px;
+    height: auto;
+    width: auto;
+    margin-top: 0;
+}
+
+.form-data {
+    background-color: rgb(255, 255, 255);
+
+    padding: 20px;
+}
+
+.form-data img {
+    width: 300px;
+    height: auto;
+}
+
+.form-data h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.form-data p {
+    width: 100%;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gray;
+    margin-top: 10px;
+}
+
+.login {
+    width: 100%;
+    padding: 20px;
+}
+
+.login__field {
+    padding: 20px 0px;
+    position: relative;
+}
+
+.login__icon {
+    position: absolute;
+    top: 30px;
+    color: black;
+}
+
+.anker-tag{
+    margin-top: -10px;
+}
+
+
+
+#Semail {
+    border: none;
+    border-bottom: 2px solid #D1D1D4;
+    background: none;
+    padding: 10px;
+    padding-left: 24px;
+    font-weight: 700;
+    width: 100%;
+    transition: .2s;
+}
+
+#Semail:active,
+#Semail:focus,
+#Semail:hover {
+    outline: none;
+    border-bottom-color: rgb(3, 138, 255);
+}
+/* ========================================================= */
+#Lnumber {
+    border: none;
+    border-bottom: 2px solid #D1D1D4;
+    background: none;
+    padding: 10px;
+    padding-left: 24px;
+    font-weight: 700;
+    width: 100%;
+    transition: .2s;
+}
+
+#Lnumber:active,
+#Lnumber:focus,
+#Lnumber:hover {
+    outline: none;
+    border-bottom-color: rgb(3, 138, 255);
+}
+
+/* ====================================================== */
+
+#Spassword {
+    border: none;
+    border-bottom: 2px solid #D1D1D4;
+    background: none;
+    padding: 10px;
+    padding-left: 24px;
+    font-weight: 700;
+    width: 100%;
+    transition: .2s;
+}
+
+#Spassword:active,
+#Spassword:focus,
+#Spassword:hover {
+    outline: none;
+    border-bottom-color: rgb(3, 138, 255);
+}
+/* ===================================== */
+#singupbtn {
+    background-color: rgb(3, 138, 255);
+    height: 30px;
+    width: 100px;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 13px;
+    margin-top: 3px;
+}
+
+.sec-btn {
+    border-style: none;
+    background-color: white;
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.two-btn p {
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+.Scl-link-pic {
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+}
+
+
+@media (max-width: 768px) {
+    .small-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-styl {
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .form-data {
+        width: 100%;
+        padding: 30px;
+        margin-left: 100px;
+
+    }
+
+    .login {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    .small-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-styl {
+        margin-left: 100px;
+        margin-top: 50px;
+        width: 100%;
+        height: auto;
+    }
+
+    .form-data {
+        width: 80%;
+        padding: 30px;
+        margin-left: 100px;
+
+    }
+
+    .login {
+        width: 100%;
+        padding: 10px;
+    }
+}
